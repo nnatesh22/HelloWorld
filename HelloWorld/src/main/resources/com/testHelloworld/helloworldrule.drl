@@ -1,0 +1,22 @@
+//created on: Jun 19, 2018
+package com.testHelloworld
+
+//list any import classes here.
+
+import com.testHelloworld.HelloWorld
+
+//declare any global variables here
+
+
+
+
+rule "hello"
+ruleflow-group 'group1'
+    when
+    	HelloWorld( )
+        //conditions
+    then
+    	System.out.println("gdjfgadfahd");
+        //actions
+
+end
